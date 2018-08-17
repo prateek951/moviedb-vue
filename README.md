@@ -1,2 +1,21 @@
-# moviedb-vue
-Working with the MovieDB api and finding the list of all the movies sort by the popularity.
+# moviedb
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
