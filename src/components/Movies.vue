@@ -31,7 +31,12 @@ export default {
       );
     }
   },
-  computed: {}
+  computed: {},
+  methods: {
+      handleMovieDetails: function() {
+          
+      }
+  }
 };
 </script>
 
