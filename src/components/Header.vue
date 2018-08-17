@@ -16,7 +16,9 @@ export default {
     }
   },
   data() {
-    return {};
+    return {
+      show: false
+    };
   },
   methods: {}
 };
@@ -24,10 +26,12 @@ export default {
 
 <style scoped>
 header {
-  background: black;
+  background: #111;
+  padding:20px;
   color: white;
 }
 header h1 {
   border: 2px solid red;
 }
+
 </style>
