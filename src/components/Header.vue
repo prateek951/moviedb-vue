@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>{{ newTitle }}</h1>
+        <h1><router-link to="/movies">{{ newTitle }}</router-link></h1>
     </header>
 </template>
 

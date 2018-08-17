@@ -5,6 +5,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import Movie from "@/components/Movie.vue";
 export default {
   name: "Movies",
@@ -33,20 +34,18 @@ export default {
   },
   computed: {},
   methods: {
-      handleMovieDetails: function() {
-          
-      }
+    handleMovieDetails: function() {}
   }
 };
 </script>
 
 <style scoped>
 ul {
-    list-style-type: none;
-    display: grid;
-    padding: 1rem;
-    margin: 0;
-    grid-row-gap: 1rem;
-    grid-template-columns: repeat(6,1fr);
+  list-style-type: none;
+  display: grid;
+  padding: 1rem;
+  margin: 0;
+  grid-row-gap: 1rem;
+  grid-template-columns: repeat(6, 1fr);
 }
 </style>
